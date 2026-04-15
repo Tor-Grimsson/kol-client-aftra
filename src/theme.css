@@ -1,0 +1,75 @@
+@theme {
+  /* ── Primary: Moody Blue ── */
+  --color-moody-50:  #EFEDFC;
+  --color-moody-100: #A8A6F5;
+  --color-moody-200: #7E7CED;
+  --color-moody-300: #5A4DDE;
+  --color-moody-400: #342B99;
+  --color-moody-500: #211D49;
+
+  /* ── Primary: Purple Heart ── */
+  --color-purple-50:  #F4EBFD;
+  --color-purple-100: #C9A0EB;
+  --color-purple-200: #AA6CE0;
+  --color-purple-300: #9533EA;
+  --color-purple-400: #5A1299;
+  --color-purple-500: #381A52;
+
+  /* ── Neutrals ── */
+  --color-alabaster: #F8F8FA;
+  --color-athens:    #F0F0F4;
+  --color-gainsboro: #E2E2E9;
+  --color-gunpowder: #3F3D56;
+  --color-steel:     #232230;
+  --color-iron:      #18181E;
+
+  /* ── Neutral Steel (12-step gray ramp) ── */
+  --color-n-steel-1:  #FDFDFD;
+  --color-n-steel-2:  #F6F6F7;
+  --color-n-steel-3:  #F2F2F3;
+  --color-n-steel-4:  #DEDEE0;
+  --color-n-steel-5:  #C8C8CB;
+  --color-n-steel-6:  #9C9CA2;
+  --color-n-steel-7:  #706F78;
+  --color-n-steel-8:  #5E5E68;
+  --color-n-steel-9:  #44434F;
+  --color-n-steel-10: #3D3D49;
+  --color-n-steel-11: #353441;
+  --color-n-steel-12: #232230;
+
+  /* ── Accent: Green Circuit ── */
+  --color-circuit-50:  #D7FAEE;
+  --color-circuit-100: #22C58F;
+  --color-circuit-200: #16A374;
+  --color-circuit-300: #05855A;
+  --color-circuit-400: #0C553D;
+  --color-circuit-500: #0B2E22;
+
+  /* ── Accent: Gold Brandy ── */
+  --color-gold-50:  #FEFBDA;
+  --color-gold-100: #FACC15;
+  --color-gold-200: #D69E04;
+  --color-gold-300: #B87C04;
+  --color-gold-400: #8F5D11;
+  --color-gold-500: #52320D;
+
+  /* ── Accent: Red Tabasco ── */
+  --color-tabasco-50:  #FEEADA;
+  --color-tabasco-100: #FF7033;
+  --color-tabasco-200: #DA481C;
+  --color-tabasco-300: #AF3318;
+  --color-tabasco-400: #752719;
+  --color-tabasco-500: #3F110D;
+
+  /* ── Accent: Violet Electric ── */
+  --color-violet-50:  #F6DBFF;
+  --color-violet-100: #E271FF;
+  --color-violet-200: #CF3CF9;
+  --color-violet-300: #AC1AD0;
+  --color-violet-400: #801296;
+  --color-violet-500: #470052;
+
+  /* ── Typography ── */
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-slab: "Roboto Slab", ui-serif, Georgia, serif;
+}

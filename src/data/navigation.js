@@ -1,21 +1,39 @@
 export const menuData = [
   {
-    label: 'Products',
+    label: 'Why Aftra',
     sections: [
       {
-        heading: 'Platform',
+        heading: 'Why Aftra',
         links: [
-          { name: 'Analytics', desc: 'Track and measure performance', icon: '📊' },
-          { name: 'Automation', desc: 'Streamline your workflows', icon: '⚡' },
-          { name: 'Integrations', desc: 'Connect your favorite tools', icon: '🔗' },
+          { name: 'About Aftra', desc: 'Our mission and story', icon: 'set-1-5' },
+          { name: 'Security approach', desc: 'How we think about EASM', icon: 'aftra-selection-18' },
+          { name: 'ISO 27001 certified', desc: 'Enterprise-grade compliance', icon: '_Icons-1-20' },
+        ],
+      },
+    ],
+    featured: {
+      title: 'Why choose Aftra?',
+      desc: 'Simple, actionable, goal-driven cybersecurity — built in Iceland, trusted across Europe.',
+      cta: 'Learn more →',
+    },
+  },
+  {
+    label: 'Product',
+    sections: [
+      {
+        heading: 'Discover',
+        links: [
+          { name: 'Map digital assets', desc: 'Discover every domain and service', icon: 'aftra-selection-33' },
+          { name: 'Understand digital footprint', desc: 'See your full external exposure', icon: 'aftra-selection-10' },
+          { name: 'Identify vulnerabilities', desc: 'Continuous, agentless scanning', icon: 'aftra-selection-15' },
         ],
       },
       {
-        heading: 'Solutions',
+        heading: 'Manage',
         links: [
-          { name: 'For Startups', desc: 'Get off the ground fast', icon: '🚀' },
-          { name: 'For Enterprise', desc: 'Scale with confidence', icon: '🏢' },
-          { name: 'For Agencies', desc: 'Manage multiple clients', icon: '🎯' },
+          { name: 'Set KPIs', desc: 'Real-time security scoring', icon: 'aftra-selection-9' },
+          { name: 'Internal scanner', desc: 'Scan behind the firewall', icon: 'set-1-38' },
+          { name: 'Integrations Hub', desc: 'Slack, Jira, Teams and more', icon: 'aftra-selection-14' },
         ],
       },
     ],
@@ -26,60 +44,89 @@ export const menuData = [
     },
   },
   {
-    label: 'Resources',
+    label: 'Solutions',
+    sections: [
+      {
+        heading: 'By role',
+        links: [
+          { name: 'For C-suite', desc: 'KPI dashboards and compliance reporting', icon: 'aftra-selection-20' },
+          { name: 'For IT teams', desc: 'Automated discovery, zero agents', icon: 'aftra-selection-3' },
+        ],
+      },
+    ],
+    featured: {
+      title: 'Customer stories',
+      desc: 'See how teams across Europe use Aftra to manage external risk.',
+      cta: 'Read case studies →',
+    },
+  },
+  {
+    label: 'Insights',
     sections: [
       {
         heading: 'Learn',
         links: [
-          { name: 'Documentation', desc: 'Guides and references', icon: '📖' },
-          { name: 'Tutorials', desc: 'Step-by-step walkthroughs', icon: '🎓' },
-          { name: 'Blog', desc: 'Insights and updates', icon: '✏️' },
+          { name: 'Resources', desc: 'Guides, whitepapers and reports', icon: 'aftra-selection-50' },
+          { name: 'Blog', desc: 'Insights and thought leadership', icon: 'aftra-selection-55' },
+          { name: 'Docs', desc: 'API reference and developer guides', icon: 'set-1-5' },
         ],
       },
       {
-        heading: 'Community',
+        heading: 'Explore',
         links: [
-          { name: 'Forum', desc: 'Ask questions, share ideas', icon: '💬' },
-          { name: 'Events', desc: 'Meetups and conferences', icon: '📅' },
-          { name: 'Open Source', desc: 'Contribute on GitHub', icon: '🌐' },
+          { name: 'News', desc: 'Company announcements', icon: '_Icons-1-30' },
+          { name: 'Case studies', desc: 'Real results from real teams', icon: 'aftra-selection-22' },
         ],
       },
     ],
     featured: {
-      title: 'Getting Started Guide',
+      title: 'Getting Started',
       desc: 'New here? Our quickstart guide will have you up and running in minutes.',
       cta: 'Read the guide →',
-    },
-  },
-  {
-    label: 'Company',
-    sections: [
-      {
-        heading: 'About',
-        links: [
-          { name: 'Our Story', desc: 'How we got here', icon: '📜' },
-          { name: 'Careers', desc: 'Join the team', icon: '💼' },
-          { name: 'Press', desc: 'News and media', icon: '📰' },
-        ],
-      },
-      {
-        heading: 'Connect',
-        links: [
-          { name: 'Contact', desc: 'Get in touch', icon: '📧' },
-          { name: 'Partners', desc: 'Work with us', icon: '🤝' },
-          { name: 'Support', desc: '24/7 help center', icon: '🛟' },
-        ],
-      },
-    ],
-    featured: {
-      title: "We're Hiring!",
-      desc: 'Join our growing team and help us build the future.',
-      cta: 'See open roles →',
     },
   },
 ]
 
 export const simpleLinks = [
   { label: 'Pricing', href: '#' },
-  { label: 'Docs', href: '#' },
 ]
+
+export const footerData = {
+  sitemap: [
+    {
+      heading: 'Product',
+      links: [
+        'Map digital assets',
+        'Understand digital footprint',
+        'Identify vulnerabilities',
+        'Set KPIs',
+        'Internal scanner',
+        'Integrations Hub',
+      ],
+    },
+    {
+      heading: 'Solutions',
+      links: ['For C-suite', 'For IT teams'],
+    },
+    {
+      heading: 'Insights',
+      links: ['Resources', 'Blog', 'News', 'Case studies', 'Docs'],
+    },
+    {
+      heading: 'Company',
+      links: ['About Aftra', 'Careers', 'Contact', 'Partners'],
+    },
+  ],
+  legal: [
+    { label: 'Privacy Policy', href: '#' },
+    { label: 'Terms of Service', href: '#' },
+    { label: 'Cookie Policy', href: '#' },
+    { label: 'Responsible Disclosure', href: '#' },
+  ],
+  social: [
+    { label: 'LinkedIn', href: '#' },
+    { label: 'YouTube', href: '#' },
+    { label: 'Facebook', href: '#' },
+  ],
+  badges: ['ISO/IEC 27001 Certified'],
+}
